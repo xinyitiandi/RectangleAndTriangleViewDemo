@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--带三角的方形框属性-->
+    <declare-styleable name="RectangleAndTriangleView">
+        <attr name="fill_color" format="color" />
+        <attr name="line_color" format="color" />
+        <attr name="tri_width" format="dimension" />
+        <attr name="tri_height" format="dimension" />
+        <attr name="tri_line_size" format="dimension" />
+        <attr name="isHaveLine" format="boolean" />
+        <attr name="tri_direction">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+            <enum name="right" value="2" />
+            <enum name="left" value="3" />
+        </attr>
+    </declare-styleable>
+
+</resources>
