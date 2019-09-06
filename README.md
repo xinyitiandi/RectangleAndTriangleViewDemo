@@ -1,4 +1,3 @@
-![](https://i.imgur.com/77Lh93f.jpg)
 ![](https://i.imgur.com/uOoIKTo.gif)
 
 ## 自定义View实现带三角气泡的矩形 ##
